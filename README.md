@@ -51,6 +51,9 @@ DEDICADA PARA TODAS LAS EDADES, A TODO AQUEL QUE LO LLEVA DENTRO, A FUEGO.
 #### 5 ●Por su paleta de colores y estilo: [puravida](https://www.puravida.com.ar)
 
 
+### Link al tablero de Trello
+>[Trello](https://trello.com/b/ZnErrIGN/grupo-7-skull-tienda-urbana)
+
 
 
 

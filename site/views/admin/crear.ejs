@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <%- include('../partials/head',{title: 'Crear'}) %> 
+
+<body>
+    <%- include('../partials/header') %>
+    <h1 class="titulo">Crear Productos</h1>
+    <main class="crear">
+        <div class="parrafo-form">
+            <p class="saludo">¡Bienvenidx ADMIN!</p>           
+        </div>
+        <form action="/administrador/crear" method="post" class="create-form">
+            <div class="control-formulario">
+                <label for="floatingSelect">Marca</label>
+                <select class="control" name="Marca" id="floatingSelect" aria-label="Floating label select example">
+                    <option selected hidden>Selecciona una opcion</option>
+                    <option value="Elements">Element</option>
+                    <option value="Lab">Lab</option>
+                    <option value="Kalima">Kalima</option>
+                    <option value="Woodo">Woodo</option>
+                    <option value="Ace shcok">Ace shcok</option>
+                    <option value="RINGS ACE WAX">RINGS ACE WAX</option>
+                    <option value="BONES KOWALSKI">BONES KOWALSKI</option>
+                    <option value="REDWINGS">REDWINGS</option>
+                    <option value="DATER">DATER</option>
+                
+                  </select>
+            </div>
+            <div class="control-formulario">
+                <label>Título</label>
+                <input type="name" name="Titulo" placeholder="Ingrese el título"
+                    autocomplete="current-password" value="" class="control" />
+            </div>
+            <div class="control-formulario">
+                <label for="floatingSelect">Categoria</label>
+                <select class="control" name="Categoria" id="floatingSelect" aria-label="Floating label select example">
+                    <option selected hidden>Selecciona una opcion</option>
+                    <option value="Skates">Skates</option>
+                    <option value="Longboards">Longboards</option>
+                    <option value="Accesorios">Accesorios</option>
+                    <option value="Partes">Partes</option>
+                  </select>
+            </div>
+            
+            <div class="control-formulario">
+                <label>Precio</label>
+                <input type="number" name="Precio" placeholder="Ingrese el precio"
+                     value="" class="control" />
+            </div>
+            <div class="control-formulario">
+                <label>Descuento</label>
+                <input type="number" name="Descuento" placeholder="Ingrese el procentaje de descuento"
+                     value="" class="control" />
+            </div>
+            <div class="control-formulario">
+                <label>Stock</label>
+                <input type="number" name="Stock" placeholder="Ingrese el stock"
+                     value="" class="control" />
+            </div>
+            <div class="control-formulario">
+                <label>Descripción</label>
+                <textarea class="texto" name="Descripcion" - placeholder="Introduzca una breve descripción del producto" ></textarea >
+                
+            </div>
+            <div class="control-formulario">
+                <label>Imagen</label>
+                <input class="imagen" - type="file" name="imagen" placeholder="Introduzca la imagen del producto"
+                     value="" class="control"  multiple/>
+            </div>
+            
+            <button type="submit" class="boton-formulario">Crear Producto</button>
+
+            
+        </form>
+
+        
+    </main>
+    <%- include('../partials/footer') %> 
+</body>
+
+    
+</body>
+</html>

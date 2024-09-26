@@ -1,0 +1,65 @@
+[
+    {
+        "id": 1,
+        "categoria":"Partes",
+        "marca": "DATER",
+        "titulo": "TRUCKS DATER 139MM FULL REDS",
+        "precio": 8.990,
+        "descuento": 20,
+        "descripcion": "Set 2 Trucks. Marca Dater Skate. Medida 139mm. Color rojo.",
+        "stock": 13,
+        "imagenes": [
+        "trucks-producto1.jpeg",
+        "trucks-producto1b.jpeg",
+        "trucks-producto1c.jpeg"
+        ]
+    },{
+        "id": 2,
+        "categoria":"Partes",
+        "marca": "DATER",
+        "titulo": "Trucks Dater skate 139 mm color",
+        "precio": 7.999,
+        "descuento": 20,
+        "descripcion": "Set 2 Trucks. Marca Dater Skate. Medida 139mm. Alas color y base pulido.",
+        "stock": 13,
+        "imagenes": [
+        "trucks-producto2.jpeg"
+        ]
+    },{
+        "id": 3,
+        "categoria":"Partes",
+        "marca": "DATER",
+        "titulo": "Trucks Dater skate 149 mm silver",
+        "precio": 7.299,
+        "descuento": 20,
+        "descripcion": "Set 2 Trucks. Marca Dater Skate. Medida 149mm. Alas y base pulido mate.",
+        "stock": 13,
+        "imagenes": [
+        "trucks-producto3.jpeg"
+        ]
+    },{
+        "id": 4,
+        "categoria":"Partes",
+        "marca": "KALIMA",
+        "titulo": "TRUCKS DE LONGBOARD 180MM KALIMA CON BUJES DE ABSORCION",
+        "precio": 6.400,
+        "descuento": 20,
+        "descripcion": "Juegos de trucks 180 mm Kalima Trans. Invertidos en 42 grados, da una curva ideal para carving y freestyle",
+        "stock": 13,
+        "imagenes": [
+        "trucks-producto4.jpeg"
+        ]
+    },{
+        "id": 5,
+        "categoria":"Partes",
+        "marca": "DATER",
+        "titulo": "Trucks Dater skate 149 mm dorado",
+        "precio": 7.999,
+        "descuento": 20,
+        "descripcion": "Set 2 Trucks. Marca Dater Skate. Medida 149mm. Alas y base color dorado.",
+        "stock": 13,
+        "imagenes": [
+        "trucks-producto5.jpeg"
+        ]
+    }
+]

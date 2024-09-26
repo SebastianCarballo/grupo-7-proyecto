@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <%- include('./partials/head',{title: 'Registro'}) %> 
+    <link rel="stylesheet" href="/css/register.css">
+   
+<body>
+    <%- include('./partials/header') %>    
+    <main>
+        <div class="parrafo-form">
+            <p>¡Bienvenido a Skull Tienda Urbana!</p>
+            <p>
+                ¡Crea una cuenta para realizar compras, crear listas de deseos y
+                seguir a tus marcas favoritas!
+            </p>
+        </div>
+        <form action="" method="post" class="create-form">
+            <div class="control-formulario">
+                <label>Correo Electronico:</label>
+                <input type="email" name="email" minlength="1"
+                    placeholder="Introduzca la dirección de correo electrónico" autocomplete="current-email" value=""
+                    class="control" />
+            </div>
+            <div class="control-formulario">
+                <label>Contraseña:</label>
+                <input type="password" name="password" placeholder="Ingresa tu contraseña"
+                    autocomplete="current-password" value="" class="control" />
+            </div>
+            <div class="control-formulario">
+                <label>Confirmar Contraseña:</label>
+                <input type="password" name="password" placeholder="Ingresa tu contraseña"
+                    autocomplete="current-password" value="" class="control" />
+            </div>
+            <div class="control-formulario">
+                <label>Nombre:</label>
+                <input type="text" name="nombre" placeholder="Ingresa tu nombre"
+                     value="" class="control" />
+            </div>
+            <div class="control-formulario">
+                <label>Apellido:</label>
+                <input type="text" name="apellido" placeholder="Ingresa tu Apellido"
+                     value="" class="control" />
+            </div>
+            
+            <button type="submit" class="boton-formulario">Crear mi cuenta</button>
+
+            
+        </form>
+
+        <div class="parrafo-form">
+            <p>Regístrese para recibir las noticias de SKULL Tienda Urbana y obtenga un cupón de $ 1500 para su próxima compra. Recibirás alertas de ventas, ofertas exclusivas y lo último en estilos y tendencias.</p>
+            <p>
+                Al suscribirte y/o crear una cuenta, aceptas los  Términos y condiciones de SKULL Tienda Urbana y  la Política de privacidad .
+            </p>
+    </main>
+    <%- include('./partials/footer') %> 
+</body>
+
+</html>

@@ -1,0 +1,100 @@
+[
+
+    {
+        "id": 1,
+        "categoria":"Partes",
+        "marca": "WOODOO",
+        "titulo": "LIJA WOODOO ZEBRA VERDE",
+        "precio": 1.850,
+        "descuento": 20,
+        "descripcion": "LIJA DE GOMA IMPORTADA",
+        "stock": 13,
+        "imagenes": [
+        "lijas-producto1.jpg"
+        ]
+    },{
+        "id": 2,
+        "categoria":"Partes",
+        "marca": "WOODOO",
+        "titulo": "LIJA WOODOO ZEBRA AMARILLA",
+        "precio": 1.850,
+        "descuento": 20,
+        "descripcion": "LIJA DE GOMA IMPORTADA",
+        "stock": 13,
+        "imagenes": [
+        "lijas-producto2.jpg"
+        ]
+    },{
+        "id": 3,
+        "categoria":"Partes",
+        "marca": "WOODOO",
+        "titulo": "LIJA WOODOO PRIDE GRADIENT",
+        "precio": 1.850,
+        "descuento": 20,
+        "descripcion": "LIJA DE GOMA IMPORTADA",
+        "stock": 13,
+        "imagenes": [
+        "lijas-producto3.jpg"
+        ]
+    },{
+        "id": 4,
+        "categoria":"Partes",
+        "marca": "WOODOO",
+        "titulo": "LIJA DE SKATE WOODOO WASHED VIOLETA",
+        "precio": 1.850,
+        "descuento": 20,
+        "descripcion": "LIJA Woodoo de edición especial Washed Pack",
+        "stock": 13,
+        "imagenes": [
+        "lijas-producto4.jpg"
+        ]
+    },{
+        "id": 5,
+        "categoria":"Partes",
+        "marca": "WOODOO",
+        "titulo": "LIJA DE SKATE WOODOO WASHED ROJA",
+        "precio": 1.850,
+        "descuento": 20,
+        "descripcion": "LIJA Woodoo de edición especial Washed Pack",
+        "stock": 13,
+        "imagenes": [
+        "lijas-producto5.jpg"
+        ]
+    },{
+        "id": 6,
+        "categoria":"Partes",
+        "marca": "SANDRO MORAL 777",
+        "titulo": "LIJA SANDRO MORAL 777",
+        "precio": 2.060,
+        "descuento": 20,
+        "descripcion": "LIja de goma microperforada. Medidas 33x9",
+        "stock": 13,
+        "imagenes": [
+        "lijas-producto6.jpg"
+        ]
+    },{
+        "id": 7,
+        "categoria":"Partes",
+        "marca": "THRASHER",
+        "titulo": "LIJA THRASHER ROSES",
+        "precio": 3.000,
+        "descuento": 20,
+        "descripcion": "LIja de goma importada microperforada.",
+        "stock": 13,
+        "imagenes": [
+        "lijas-producto7.jpg"
+        ]
+    },{
+        "id": 8,
+        "categoria":"Partes",
+        "marca": "THRASHER",
+        "titulo": "LIJA THRASHER SKATEGOAT",
+        "precio": 3.000,
+        "descuento": 20,
+        "descripcion": "LIja de goma importada microperforada.",
+        "stock": 13,
+        "imagenes": [
+        "lijas-producto8.jpg"
+        ]
+    }
+]

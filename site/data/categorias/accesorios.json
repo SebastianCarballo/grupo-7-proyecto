@@ -1,0 +1,159 @@
+[
+    {
+        "id": 1,
+            "categoria":"Accesorios",
+            "marca": "Ace shcok",
+            "titulo": "PADS ACE SHCOK 1/16 BLACK",
+            "precio": 1730,
+            "descuento": 20,
+            "descripcion": "Pack de 2 unidades color negro. Espesor de 1/16 de pulgada.",
+            "stock": 13,
+            "imagenes": [
+                "otros-producto1.jpg"
+            ]
+    },{
+        "id": 2,
+            "categoria":"Accesorios",
+            "marca": "RINGS ACE WAX",
+            "titulo": "VELA RINGS ACE WAX",
+            "precio": 1490,
+            "descuento": 20,
+            "descripcion": "Vela para superficies. Medidas: 8CM X 4CM X 2CM",
+            "stock": 13,
+            "imagenes": [
+                "otros-producto2.jpg",
+                "otros-producto2b.jpg"
+            ]
+    },{
+        "id": 3,
+            "categoria":"Accesorios",
+            "marca": "ACE AF1",
+            "titulo": "LLAVE T ACE AF1",
+            "precio": 8860,
+            "descuento": 20,
+            "descripcion": "LLAVE T PLEGABLE. Redefiniendo el uso de una herramienta de skate. Incluso más pequeña que nuestra herramienta Classic. Herramienta multiproposito para ajustar donde sea tus trucks Ace. El moleteado en la pieza del mango garantiza la facilidad de uso. El mecanismo de enganche de bola en la llave Phillips / Allen y la herramienta de montaje evita la pérdida de piezas. Cada herramienta que necesita en una: Re-enhebradoras de eje y pivote central incorporadas, Phillips y Allen, Tuerca Kingpin, Tuercas de eje y Filo para Griptape. Acero para herramientas 100% de alta calidad.",
+            "stock": 13,
+            "imagenes": [
+                "otros-producto3.jpg",
+                "otros-producto3b.jpg",
+                "otros-producto3c.jpg",
+                "otros-producto3d.jpg"
+            ]
+    },{
+        "id": 4,
+            "categoria":"Accesorios",
+            "marca": "WHIRO",
+            "titulo": "LLAVE T WHIRO",
+            "precio": 2100,
+            "descuento": 20,
+            "descripcion": "Llave T marca WHIRO, para cada parte necesaria del skate. Color negro.",
+            "stock": 13,
+            "imagenes": [
+                "otros-producto4.jpg"
+            ]
+    },{
+        "id": 5,
+            "categoria":"Accesorios",
+            "marca": "THRASHER",
+            "titulo": "TARJETERO THRASHER",
+            "precio": 2000,
+            "descuento": 20,
+            "descripcion": "Tarjetero de cuero marca TRASHER. Color negro.",
+            "stock": 13,
+            "imagenes": [
+                "indumentaria-producto1.jpg",
+                "indumentaria-producto1b.jpg"
+            ]
+    },{
+        "id": 6,
+            "categoria":"Accesorios",
+            "marca": "LOOP KILO",
+            "titulo": "RIÑONERA LOOP KILO ACUARELA",
+            "precio": 8700,
+            "descuento": 20,
+            "descripcion": "Riñonera LOOP KILO reforzada, adaptable para bicis. Color de acuarelas",
+            "stock": 13,
+            "imagenes": [
+                "indumentaria-producto2.jpg",
+                "indumentaria-producto2b.jpg"
+            ]
+    },{
+        "id": 7,
+            "categoria":"Accesorios",
+            "marca": "Pura Vida",
+            "titulo": "Riñonera Pura Vida Basic Maiz",
+            "precio": 2799,
+            "descuento": 20,
+            "descripcion": "Riñonera PURA VIDA reforzada. Color maiz.",
+            "stock": 13,
+            "imagenes": [
+                "indumentaria-producto3.jpg",
+                "indumentaria-producto3b.jpg",
+                "indumentaria-producto3c.jpg"
+            ]
+    },{
+        "id": 8,
+            "categoria":"Accesorios",
+            "marca": "THRASHER",
+            "titulo": "ROÑONERA THRASHER WAIST BAG FLAME",
+            "precio": 5800,
+            "descuento": 20,
+            "descripcion": "Riñonera TRASHER reforzada. ColoR negro.",
+            "stock": 13,
+            "imagenes": [
+                "indumentaria-producto4.jpg"
+            ]
+    },{
+        "id": 9,
+            "categoria":"Accesorios",
+            "marca": "TUXS",
+            "titulo": "SET PROTECCIONES TUXS",
+            "precio": 5890,
+            "descuento": 20,
+            "descripcion": "Set de protecciones Tuxs, cuenta con muñequera, codera y rodillera. Muy buena calidad para uso en cualquier deporte extremo. ADULTO",
+            "stock": 13,
+            "imagenes": [
+                "proteccion-producto1.jpg",
+                "proteccion-producto1b.jpg"
+            ]
+    },{
+        "id": 10,
+            "categoria":"Accesorios",
+            "marca": "LAB",
+            "titulo": "Set de protecciones, ADULTO",
+            "precio": 9900,
+            "descuento": 20,
+            "descripcion": "Kit de protecciones ADULTO para skate o longboard. Talle único. Incluye: set de 2 rodilleras + set de 2 coderas + set de 2 muñequeras.",
+            "stock": 13,
+            "imagenes": [
+                "proteccion-producto2.jpg",
+                "proteccion-producto2b.jpg",
+                "proteccion-producto2c.jpg",
+                "proteccion-producto2d.jpg"
+            ]
+    },{
+        "id": 11,
+            "categoria":"Accesorios",
+            "marca": "LAB",
+            "titulo": "CASCO LAB, NIÑX",
+            "precio": 4950,
+            "descuento": 20,
+            "descripcion": "Plástico exterior Polipropileno. Material interior: Goma Eva con espuma y poliéster. Tiras de Polyester nylon. Orificios de ventilación. Color negro.",
+            "stock": 13,
+            "imagenes": [
+                "proteccion-producto3.jpg"
+            ]
+    },{
+        "id": 12,
+            "categoria":"Accesorios",
+            "marca": "KALIMA",
+            "titulo": "CASCO BLANCO SKATE KALIMA DEPORTES EXTREMOS. ADULTO",
+            "precio": 2900,
+            "descuento": 20,
+            "descripcion": "Plástico exterior Polipropileno. Material interior: Goma Eva con espuma y poliéster. Tiras de Polyester nylon. Orificios de ventilación. Color negro.",
+            "stock": 13,
+            "imagenes": [
+                "proteccion-producto4.jpg"
+            ]
+    }
+]

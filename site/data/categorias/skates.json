@@ -1,0 +1,143 @@
+[
+    {
+        "id": 1,
+        "categoria":"Skates",
+        "marca": "Element",
+        "titulo": "SKATE ELEMENT SECTION",
+        "precio": 30.990,
+        "descuento": 20,
+        "descripcion": "DECK ELEMENT MAPLE CANADIENSE 8 . TRUCKS ELEMENT 139MM. RUEDAS 53MM 99A. RULEMANES ELEMENT ABEC 5",
+        "stock": 13,
+        "imagenes": [
+        "element-producto1.png",
+        "element-producto1b.png",
+        "element-general.png"
+        ]
+    },{
+        "id": 2,
+        "categoria":"Skates",
+        "marca": "Element",
+        "titulo": "SKATE ELEMENT MAGMA SECTION",
+        "precio": 30.990,
+        "descuento": 20,
+        "descripcion": "DECK ELEMENT MAPLE CANADIENSE 8 . TRUCKS ELEMENT 139MM. RUEDAS 53MM 99A. RULEMANES ELEMENT ABEC 5",
+        "stock": 13,
+        "imagenes": [
+        "element-producto2.png",
+        "element-general.png"
+        ]
+    },{
+        "id": 3,
+        "categoria":"Skates",
+        "marca": "Element",
+        "titulo": "SKATE ELEMENT MAGMA SEAL",
+        "precio": 30.990,
+        "descuento": 20,
+        "descripcion": "DECK ELEMENT MAPLE CANADIENSE 8 . TRUCKS ELEMENT 139MM. RUEDAS 53MM 99A. RULEMANES ELEMENT ABEC 5",
+        "stock": 13,
+        "imagenes": [
+        "element-producto3.png",
+        "element-general.png"
+        ]
+    },{
+        "id": 4,
+        "categoria":"Skates",
+        "marca": "Lab",
+        "titulo": "Skate Completo, DARK SKULL",
+        "precio": 15300,
+        "descuento": 20,
+        "descripcion": "Tabla cóncava con doble kick, compuesto por laminas de madera y resina epoxi. Truck reforzados de aluminio. Bujes 95 A, Rulemanes Abec 9, Ruedas de Uretano 52 a 54 mm. Madera Guatambú: resiste hasta 90 kg, vienen en 2 medidas 8” y 8.25”. Puede ser utilizada por niños y adultos.",
+        "stock": 13,
+        "imagenes": [
+        "lab-producto1.jpg",
+        "lab-general1.jpg",
+        "lab-general2.jpg"
+        ]
+    },{
+        "id": 5,
+        "categoria":"Skates",
+        "marca": "Lab",
+        "titulo": "Skate Completo , NEW JUNGLE",
+        "precio": 116020,
+        "descuento": 20,
+        "descripcion": "Tabla cóncava con doble kick, compuesto por 7 laminas de madera y resina epoxi. Truck reforzados de aluminio. Bujes 95 A, Rulemanes Abec 9, Ruedas de Uretano 54 mm. MAPLE ECONÓMICO: resiste hasta 60 kg, viene solo en medida 8” es ideal para principintes y niños.",
+        "stock": 13,
+        "imagenes": [
+        "lab-producto2.jpg",
+        "lab-general1.jpg",
+        "lab-general2.jpg"
+        ]
+    },{
+        "id": 6,
+        "categoria":"Skates",
+        "marca": "Lab",
+        "titulo": "Skate Completo , GRAN OLA",
+        "precio": 16020,
+        "descuento": 20,
+        "descripcion": "Tabla cóncava con doble kick, compuesto por 7 laminas de madera y resina epoxi. Truck reforzados de aluminio. Bujes 95 A, Rulemanes Abec 9, Ruedas de Uretano 52 a 54 mm. Podes elegir entre estos dos tipos de madera: GUATAMBÚ: resiste hasta 90 kg, vienen en 2 medidas 8” y 8.25”. Puede ser utilizada por niños y adultos. O MAPLE ECONÓMICO: resiste hasta 60 kg, viene solo en medida 8” es ideal para niños",
+        "stock": 13,
+        "imagenes": [
+        "lab-producto3.jpg",
+        "lab-general1.jpg",
+        "lab-general2.jpg"
+        ]
+    },{
+        "id": 7,
+        "categoria":"Skates",
+        "marca": "Lab",
+        "titulo": "Skate Completo , CALAVERA",
+        "precio": 16020,
+        "descuento": 20,
+        "descripcion": "Tabla cóncava con doble kick, compuesto por 7 laminas de madera y resina epoxi. Truck reforzados de aluminio. Bujes 95 A, Rulemanes Abec 9, Ruedas de Uretano 52 a 54 mm. Podes elegir entre estos dos tipos de madera: GUATAMBÚ: resiste hasta 90 kg, vienen en 2 medidas 8” y 8.25”. Puede ser utilizada por niños y adultos. O MAPLE ECONÓMICO: resiste hasta 60 kg, viene solo en medida 8” es ideal para niños",
+        "stock": 13,
+        "imagenes": [
+        "lab-producto4.jpg",
+        "lab-general1.jpg",
+        "lab-general2.jpg"
+        ]
+    },{
+        "id": 8,
+        "categoria":"Skates",
+        "marca": "Woodo",
+        "titulo": "Skate Woodoo Rings Azul",
+        "precio": 19999,
+        "descuento": 20,
+        "descripcion": "Skate para iniciantes compuesto de Tabla de Arce, griptape plástico, ruedas Woodoo SHR 95A, Rodamientos Abec3 y Trucks Negro Mate con bujes SHR de dureza intermedia. Ancho: 8 Largo: 31.75",
+        "stock": 13,
+        "imagenes": [
+            "woodo-producto1.jpg",
+        "woodo-general1.jpg",
+        "woodo-general2.jpg"
+        ]
+    },{
+        "id": 9,
+        "categoria":"Skates",
+        "marca": "Woodo",
+        "titulo": "Skate Woodoo Sandro Moral",
+        "precio": 19999,
+        "descuento": 20,
+        "descripcion": "Skate para iniciantes compuesto de Tabla de Arce, griptape plástico, ruedas Woodoo SHR 95A, Rodamientos Abec3 y Trucks Negro Mate con bujes SHR de dureza intermedia. Ancho: 8 Largo: 31.75",
+        "stock": 13,
+        "imagenes": [
+            "woodo-producto2.jpg",
+            "woodo-producto2b.jpg",
+        "woodo-general1.jpg",
+        "woodo-general2.jpg"
+        ]
+    },{
+        "id": 10,
+        "categoria":"Skates",
+        "marca": "Woodo",
+        "titulo": "Skate Woodoo Sandro Moral",
+        "precio": 19999,
+        "descuento": 20,
+        "descripcion": "Skate para iniciantes compuesto de Tabla de Arce, griptape plástico, ruedas Woodoo SHR 95A, Rodamientos Abec3 y Trucks Negro Mate con bujes SHR de dureza intermedia. Ancho: 8 Largo: 31.75",
+        "stock": 13,
+        "imagenes": [
+            "woodo-producto3.jpg",
+            "woodo-producto3b.jpg",
+        "woodo-general1.jpg",
+        "woodo-general2.jpg"
+        ]
+    }
+]

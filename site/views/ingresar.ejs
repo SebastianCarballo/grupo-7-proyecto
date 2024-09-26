@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <%- include('./partials/head',{title: 'Ingresar'}) %> 
+    <link rel="stylesheet" href="/css/login.css">
+<body>
+    <%- include('./partials/header') %>
+    <main>
+        <div class="parrafo-form">
+            <h1>Bienvenidos a!</h1>
+            <img class="slogan" src="/images/skull tienda urbana.png" alt="">
+            <p>¡Inicie sesión para comprar productos, agregarlos a su lista de deseos y seguir sus marcas favoritas!</p>
+        </div>
+        <form action="" method="post" class="create-form">
+            <div class="control-formulario">
+            <label>Correo Electronico</label>
+            <input type="email" name="email" minlength="1" placeholder="Introduzca la dirección de correo electrónico" autocomplete="current-email" value="" class="control">
+            </div>
+            <div class="control-formulario">
+            <label>Contraseña</label>
+            <input type="password"  name="password" placeholder="Ingresa tu contraseña" autocomplete="current-password" value="" class="control">
+            </div>
+            <button type="submit"  class="boton-formulario">Iniciar Sesión</button>
+        </form>
+
+
+        <div class="parrafo-form">
+            <p>¿Te olvidaste la contraseña?</p>
+            <p>Al suscribirte y/o crear una cuenta a través de Facebook, Google y/o Apple, aceptas los Términos y condiciones de SKULL Tienda urbana y  la Política de privacidad</p>
+        </div>
+        
+    </main>
+    <%- include('./partials/footer') %> 
+</body>
+</html>

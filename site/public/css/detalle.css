@@ -1,0 +1,225 @@
+body .detalle {  
+    font-family: var(--fuente-Fredoka);
+    padding: 5%;
+}
+
+.back-inicio{
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.back-inicio a{
+    color: var(--colorNegro);
+    text-decoration: none;
+}
+
+.detalle .product-detail .img {
+    width: 85%;
+    box-shadow: 2px 2px 4px var(--colorVerdeOscuro);
+    margin: 0 auto;
+    margin-top: 10px;
+
+}
+.detalle .precio{
+    width: 85%;
+    margin: 0 auto;
+    font-size: 2.5rem;
+}
+
+.detalle .precio span{
+    color: var(--colorRojo);
+    text-decoration: line-through ;
+}
+.detalle .precio small{
+    color: var(--colorVerdeSapito);
+}
+.detalle img {
+    width: 100%;
+}
+
+.detalle .img h1 {
+    width: 100%;
+    font-size: 2.5rem;    
+}
+.detalle .detail {
+    
+    box-shadow: 2px 2px 4px var(--colorVerdeOscuro);
+    width:85%;
+    margin: 0 auto;
+    margin-top: 10px;
+    
+
+}
+.detalle .detail1{
+    width: 85%;
+    box-shadow: 2px 2px 4px var(--colorVerdeOscuro);
+  
+    margin: 0 auto;
+
+}
+.detalle .detail1 h2 {
+    font-size: 2rem;
+    margin-top: 15px;
+}
+
+.detalle .text-detail {
+    font-size: 2rem;
+}  
+
+
+
+
+
+
+.detalle .detail button {
+    background-color: var(--colorVerdeOscuro);
+    font-size: 1.5rem;
+    color: var(--colorBlanco);
+    border: none;
+    border-radius: 5px;
+    width: 260px;
+    height: 46px;
+    padding: 2.5px;
+    box-shadow: 2px 2px 4px var(--colorNegro);
+    margin-top: 6px;
+}
+
+.detalle .detail .sumar div {
+    background-color:var(--colorVerdeOscuro);
+    color:var(--colorNegro);
+    padding: 5px;
+    display: flex;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 46px;
+    margin: 0 10px;
+    margin-top: 6px;
+    margin-bottom: 10px;
+    box-shadow: 2px 2px 4px var(--colorNegro)
+
+}
+.detalle .detail .sumar button a{
+    color: var(--colorBlanco);
+    text-decoration: none;
+   
+    
+}
+
+.detalle .detail .sumar input {
+    width: 50px;
+    height: 48px;
+    margin-top: 6px;
+    font-size: 2rem;
+    text-align: center;
+   
+
+}
+
+.detalle .sumar{
+    width: 85%;
+    display: flex;
+    justify-content: center;
+    
+}
+.detalle .promotion{
+    width: 85%;
+    margin: 0 auto;
+    box-shadow: 2px 2px 4px var(--colorVerdeOscuro);
+    padding-bottom: 5px;
+}
+
+.detalle .promotion aside {
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+
+}
+
+.detalle .img p {
+    margin-top: 15px;
+    font-size: 3rem;
+
+}
+
+.detalle .promotion aside h3 {
+    width: 100%;
+    font-size: 2rem;
+    margin-top: 30px;
+
+}
+
+.detalle .promotion p {
+    margin-top: 10px;
+    font-size: 1.5rem;
+}
+.detalle .icons-footer {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;  
+    position: relative;
+}
+
+@media(min-width:426px){
+
+    .detalle .precio{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+/* Desktop */
+@media(min-width:769px){
+    .detalle{
+        display: flex;
+        flex-direction: column;
+    }
+    .detalle .detail-section{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .detalle section .conteiner-detail{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-around;
+        
+        width: 50%;
+    }
+    
+    
+    .detalle section .conteiner-detail .detail1 .text-detail{
+        width: 90%;
+    }
+    .detalle section .conteiner-detail .detail1 .text-detail p{
+        margin-bottom: 90px
+    }
+    .detalle .conteiner-detail .detail .sumar input{
+        width: 12%;
+        height: 100%;
+    }
+    .detalle .conteiner-detail .detail .sumar .button{
+        margin-left: 90%;
+    }
+    .detalle .conteiner-detail .detail .sumar{
+        font-size: 24px;
+    }
+
+    .detalle .promotion aside article p{
+        font-size: 18px;
+    }
+    .detalle img{
+        width: 60%;
+    }
+    .detalle .product-detail .img{
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+

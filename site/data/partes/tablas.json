@@ -1,0 +1,80 @@
+[
+
+    {
+        "id": 1,
+        "categoria":"Partes",
+        "marca": "WOODOO",
+        "titulo": "TABLA DE SKATE WOODOO QUIQUE ILUMINATI",
+        "precio": 10.960,
+        "descuento": 20,
+        "descripcion": "Construcción con tecnología EPOBLOCK. Maple Canadiense de 7 capas + pegamento EPOXI.",
+        "stock": 13,
+        "imagenes": [
+        "tablas-producto1.jpg"
+        ]
+    },{
+        "id": 2,
+        "categoria":"Partes",
+        "marca": "WOODOO",
+        "titulo": "TABLA DE SKATE WOODOO SANDRO ILUMINATI",
+        "precio": 10.960,
+        "descuento": 20,
+        "descripcion": "Construcción con tecnología EPOBLOCK. Maple Canadiense de 7 capas + pegamento EPOXI.",
+        "stock": 13,
+        "imagenes": [
+        "tablas-producto2.jpg"
+        ]
+    },{
+        "id": 3,
+        "categoria":"Partes",
+        "marca": "TUXS",
+        "titulo": "TABLA DE SKATE TUXS BATIK",
+        "precio": 11.990        ,
+        "descuento": 20,
+        "descripcion": "Construcción con tecnología EPOBLOCK. MAPLE TUXS 8.25 + pegamento EPOXI.",
+        "stock": 13,
+        "imagenes": [
+        "tablas-producto3.jpg",
+        "tablas-producto3b.jpg"
+        ]
+    },{
+        "id": 4,
+        "categoria":"Partes",
+        "marca": "TUXS",
+        "titulo": "TABLA TUXS PSYCHO WARRIOR",
+        "precio": 13.790        ,
+        "descuento": 20,
+        "descripcion": "DECK TUXS MAPLE CANADIENSE. CONCAVIDAD PRONUNCIADA. 100% MAPLE CANADIENSE DE ALTA DENSIDAD MAS RESINA EPOXI DAN COMO RESULTADO UNA TABLA MAS LIVIANA, DE EQUILIBRADA REGIDEZ CON UN ELEXELENTE POP.",
+        "stock": 13,
+        "imagenes": [
+        "tablas-producto4.jpg",
+        "tablas-producto4b.jpg"
+        ]
+    },{
+        "id": 5,
+        "categoria":"Partes",
+        "marca": "CLEAVER BUCCHIERI ",
+        "titulo": "TABLA DE SKATE CLEAVER BUCCHIERI 78",
+        "precio": 11.560,
+        "descuento": 20,
+        "descripcion": "Construcción con tecnología EPOBLOCK. Maple Canadiense de 7 capas + pegamento EPOXI.",
+        "stock": 13,
+        "imagenes": [
+        "tablas-producto5.jpg"
+        ]
+    },{
+        "id": 6,
+        "categoria":"Partes",
+        "marca": "TUXS",
+        "titulo": "TABLA TUXS LUCAS ROJAS",
+        "precio": 13.790,
+        "descuento": 20,
+        "descripcion": "DECK TUXS MAPLE CANADIENSE. LUCAS ROJAS PRO MODEL. CAPAS DE HARD ROCK MAPLE SELECCIONADO",
+        "stock": 13,
+        "imagenes": [
+        "tablas-producto6.jpg",
+        "tablas-producto6b.jpg",
+        "tablas-producto6c.jpg"
+        ]
+    }
+]

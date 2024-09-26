@@ -1,0 +1,102 @@
+[
+    {
+        "id": 1,
+        "categoria":"Partes",
+        "marca": "KALIMA",
+        "titulo": "RULEMANES KALIMA ABEC 7",
+        "precio": 950,
+        "descuento": 20,
+        "descripcion": "Pack de 8 rulemanes ABEC 7. ",
+        "stock": 13,
+        "imagenes": [
+        "rulemanes-producto1.jpg"
+        ]
+    } ,{
+        "id": 2,
+        "categoria":"Partes",
+        "marca": "REDWINGS",
+        "titulo": "RULEMANES REDWINGS METALBOX",
+        "precio": 2.290,
+        "descuento": 20,
+        "descripcion": "RULEMANES RED WINGS. ABEC 7 ",
+        "stock": 13,
+        "imagenes": [
+        "rulemanes-producto2.jpg"
+        ]
+    },{
+        "id": 3,
+        "categoria":"Partes",
+        "marca": "Pura Vida ",
+        "titulo": "Rulemanes Pura Vida abec 7 black edition",
+        "precio": 1.799,
+        "descuento": 20,
+        "descripcion": "RULEMANES PURA VIDA. ABEC 7 ",
+        "stock": 13,
+        "imagenes": [
+        "rulemanes-producto3.jpg",
+        "rulemanes-producto3b.jpg"
+        ]
+    },{
+        "id": 4,
+        "categoria":"Partes",
+        "marca": "ACE",
+        "titulo": "BUJE ACE MEDIUM",
+        "precio": 1.960,
+        "descuento": 20,
+        "descripcion": "2 x Bujes de dureza 91A para parte superior. 2 x Bujes de dureza 86A para parte inferior.",
+        "stock": 13,
+        "imagenes": [
+        "bujes-producto1.jpg"
+        ]
+    },{
+        "id": 5,
+        "categoria":"Partes",
+        "marca": "KALIMA",
+        "titulo": "BUJES DE URETANO",
+        "precio": 650        ,
+        "descuento": 20,
+        "descripcion": "2 x Bujes de uretano 91A para parte superior. 2 x Bujes de uretano 86A para parte inferior.",
+        "stock": 13,
+        "imagenes": [
+        "bujes-producto2.jpg"
+        ]
+    },{
+        "id": 6,
+        "categoria":"Partes",
+        "marca": "BONES",
+        "titulo": "BUJES BONES HARDCORE SOFT",
+        "precio": 5.160        ,
+        "descuento": 20,
+        "descripcion": "BUJES DE URETANO 81A.",
+        "stock": 13,
+        "imagenes": [
+        "bujes-producto3.jpg"
+        ]
+    },{
+        "id": 7,
+        "categoria":"Partes",
+        "marca": "TUXS",
+        "titulo": "TORNILLOS ALLEN TUXS BLACK",
+        "precio": 800        ,
+        "descuento": 20,
+        "descripcion": "TORNILLOS DE ACERO INOXIDABLE ALLEN BLACK",
+        "stock": 13,
+        "imagenes": [
+        "tornillos-producto1.jpg",
+        "tornillos-producto1b.jpg"
+        ]
+    },{
+        "id": 8,
+        "categoria":"Partes",
+        "marca": "TUXS",
+        "titulo": "TORNILLOS ALLEN TUXS GOLD",
+        "precio": 1000        ,
+        "descuento": 20,
+        "descripcion": "TORNILLOS DE ACERO INOXIDABLE ALLEN GOLD",
+        "stock": 13,
+        "imagenes": [
+        "tornillos-producto2.jpg",
+        "tornillos-producto2b.jpg"
+        ]
+    }
+]

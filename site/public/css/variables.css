@@ -1,0 +1,28 @@
+
+/* Fuente a utilzar */
+/* @importurl(); */
+
+/* Fuente a utilzar 
+@importurl();*/
+
+
+
+:root{
+    /* Colores */
+    --colorVerdeOscuro: #399B9B;
+    --colorVerdeClaro: #77ABAB;
+    --colorRosa: #C2789C;
+    --colorGris: #4F6162;
+    --colorNegro: #201D23;
+
+    --colorVerdeSapito: #42a842;
+    --colorRojo: #be4242;
+    --colorBlanco:#ffffff;
+
+
+    /* Fuentes */
+    --fuente-Fredoka: 'Fredoka', sans-serif;
+    --fuente-fredoka-one:'Fredoka One', cursive;
+    --fuente-Inter:'Inter', sans-serif;
+    --fuente-Poppins:'Poppins', sans-serif;
+}

@@ -1,0 +1,52 @@
+@import url('./normalize.css');
+@import url('./variables.css');
+@import url('./general.css');
+@import url('./header.css');
+@import url('./footer.css');
+@import url('./contacto.css');
+
+@import url('./home.css');
+/* el home debe tener secciones mino ofertas,destacados,nuevos, tu ultima vicita,categoria extras,lo mas visitados, segun el tipo, segun el material, tipo de producto*/
+@import url('./detalle.css');
+/* hacer un producto con los detalles que mas se le pueden poner,dentro de su categoria o sus categorias*/
+@import url('./carrito.css');
+/* tratemos de crear un carrito con un producto y no vacio,para saber las interacciones, mas que nada para ver el tamaño de las matricez */
+@import url('./login.css');
+/* login y registro tienen que compartir estilos asi no se ve mal */
+@import url('./registrar.css');
+/* aca se puede unificar los estilos de inicio de sesión y registro, lo ideal es separarlos*/
+@import url('./404.css');
+/* aca es donde la pagina debe redireccionar en caso del que cliente escriba una ruta no existente*/
+@import url('./crear.css');
+
+@import url('./listar.css');
+
+/* aca nosotros tenemos las 5 paginas principales
+hogar
+detalle
+carrito
+acceso
+Registrarse
+pero se pueden entregar mas y asi mimso tambien importarlas, ya que el trabajo es totalmente escalable
+ejemplo
+contacto
+categorías
+productos
+arma tu producto
+envios
+reclamos
+comentarios
+asistencia
+ideas
+mas ideas
+*** si se les ocurren mas ideas, agreguen y pongan su nombre******
+metanle ganas much@chossss
+ 
+algo a tener en cuenta muy en cuenta, tratemos de ser ordenados y que las paginas sean responsivas
+vista:
+móvil
+tableta
+escritorio
+*/
+
+/* en la clase n° 39 en el minuto 46 el profe explica sobre cada rama individual */

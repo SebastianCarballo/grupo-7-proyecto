@@ -1,0 +1,268 @@
+.carrito  .producto{
+    display: flex;
+    flex-direction: row;
+    width: 85%;
+    margin: 20px auto;
+    box-shadow: 4px 4px 8px var(--colorNegro);
+ }
+
+ .carrito section .back-carrito{
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+ }
+ .carrito section .back-carrito a{
+    color: var(--colorNegro);
+    text-decoration: none;
+    font-size: 18px;
+ }
+ .carrito  section .tacho-carrito{
+    display: flex;
+    width: 30%;
+    font-size: 30px;
+    margin-right: 5px;
+    padding: 5px;
+    box-shadow: 4px 4px 8px var(--colorNegro);
+}
+.carrito  section .imagen-carrito{
+    width: 30%;
+    ;
+}
+.carrito  section .imagen-carrito img{
+    width: 100%;
+    margin: 55px 0;
+    rotate: 90deg;
+}
+.carrito section .interaccion-carrito{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.carrito  section .sumar-carrito{
+    display: flex;
+}
+.carrito section .desc-carrito{
+       text-align: center;
+       font-size: 14px;
+}
+.carrito  section .sumar-carrito{
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+.carrito section .sumar-carrito input{
+    width: 20%;
+    text-align: center;
+
+}
+.carrito section .precio-tacho-carrito{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    align-items: flex-end;
+} 
+.carrito section .sumar-carrito div{
+    font-size: 16px;
+    background-color: var(--colorVerdeOscuro);
+    color: var(--colorBlanco);
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    width: 30px;
+    border-radius: 5px;
+}
+.carrito  .precio{
+    display: flex;
+    margin-right: 2px;
+    font-size: 18px;
+}
+.carrito section .envio{
+    margin-left: 7px;
+}
+.carrito section .envio .descuento-carrito{
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+.carrito section .envio .descuento-carrito .total-descuento{
+    color:var(--colorRojo) ;
+    text-decoration:line-through;
+    font-size: 18px;
+}
+.carrito section .envio .descuento-carrito .porcentaje-descuento{
+    color: var(--colorVerdeSapito)
+}
+.carrito section article .suma-envio{
+    display: flex;
+   justify-content: space-between ;
+   margin-top: 15px;
+   margin-right: 20px;
+   font-size: 14px;
+}
+.carrito section article .sin-envio{
+    font-size: 12px;
+    margin-top: 10px;
+}
+.carrito  .total .total-neto{
+    box-shadow: 4px 4px 8px var(--colorNegro);
+    font-size: 16px;
+    border: 2px solid var(--colorVerdeOscuro);
+    margin:10px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.carrito .boton-compra{
+    color:var(--colorBlanco);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.carrito .boton-compra article{
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+.carrito  .boton-compra article {
+    color: var(--colorVerdeOscuro);
+    
+}
+
+
+.carrito .boton-compra .comprar{
+    box-shadow: 4px 4px 8px var(--colorNegro);
+    background-color: var(--colorVerdeOscuro);
+    color: var(--colorBlanco);
+    width: 40%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    margin-left: 30%;
+}
+.carrito .boton-compra .comprar h2{
+    display: flex;
+    justify-content: center;
+}
+@media (min-width:426px){
+    .carrito .producto{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    width: 75%;
+    }
+    .carrito .nav-carrito{
+        position: relative;
+        right: 29%;
+    }
+    
+    .carrito section .imagen-carrito img{
+        width: 115%;
+        rotate: none
+    }
+    .carrito section .imagen-carrito{
+        margin-left: 5%;
+    }
+
+    .carrito  section .desc-carrito{
+        margin-top: 15px;
+
+    }
+    .carrito  section .marco-carrito{
+        border: 2px solid var(--colorVerdeOscuro);
+        border-radius: 6px;
+        margin: 5px;
+    }
+    .carrito  section .sumar-carrito div{
+        margin:5px;
+    }
+    .carrito  section .sumar-carrito input{
+        width: 20%;
+        height: 30px;
+        margin-top: 3px;
+        
+    }
+    
+    .carrito  .boton-compra p{
+        font-size: 12px
+    }
+    .carrito  .boton-compra .comprar{
+        width: 100%;
+        margin-left: 0%;
+    }
+    
+    .carrito .total .total-neto{
+        border: 2px solid var(--colorVerdeOscuro);
+    }
+    .carrito .total{
+        width: 75%;
+    }
+    .carrito{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+
+
+@media (min-width:769px){
+.carrito  section .imagen-carrito img{
+        width: 55%;
+        
+}
+.carrito section .imagen-carrito{
+    width: 40%;
+    margin-top: 1%;
+    display: flex;
+    justify-content: center;
+
+}
+.carrito .nav-carrito{
+    position: relative;
+    right: 37%;
+}
+.carrito  section .tacho-carrito{
+position: relative;
+right: 5px;
+padding: 2px;
+box-shadow: 2px 2px 4px var(--colorVerdeOscuro)
+}
+.carrito  section .marco-carrito{
+    box-shadow: 2px 2px 4px var(--colorVerdeOscuro);
+}
+
+.carrito  section .sumar-carrito input{
+    width: 20%;
+    height: 100%;
+    margin-top: 7px;
+    font-size: 14px;
+   }
+   .carrito  .producto .interaccion-carrito{
+    margin-right: 10%;
+    margin-left: 5%;
+   }
+   
+   .carrito  .total{
+    width: 80%;
+    margin: auto;
+    border-top: 2px solid var(--colorVerdeOscuro);
+    border-bottom: 2px solid var(--colorVerdeOscuro);
+   }
+   .carrito .total .total-neto{
+    border: 2px solid var(--colorGris);
+    width: 50%;
+    margin: 15px auto ;
+   }
+
+   .carrito section .envio .descuento-carrito .porcentaje-descuento{
+    color: var(--colorBlanco);
+    background-color: var(--colorVerdeSapito);
+    padding: 5px;
+    border-radius: 5%;
+}
+
+}

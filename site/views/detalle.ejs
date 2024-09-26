@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <%- include('./partials/head',{title: 'Detalles'}) %> 
+    <link rel="stylesheet" href="/css/detalle.css">
+<body>
+    <%- include('./partials/header') %>
+    <main class="detalle">
+        <section class="back-inicio">
+            <a href="/"><i class="fas fa-arrow-left"></i>Volver a la tienda</a>
+        </section>
+        <section class="detail-section">
+        <article class="product-detail">
+            <div class="img">
+                <img src="/images/productos/<%= producto.imagenes[0] %>" alt="lkj">
+                <h1><%= producto.marca %></h1>
+                <h1><%= producto.titulo %></h1>
+                
+            </div>
+
+        </article>
+        <article class="conteiner-detail">
+            <div class="detail">
+                <div class="precio">
+                    <div><small><%= producto.descuento %>%</small>
+                    <span>$<%= producto.precio %></span></div>
+                    <p>$<%= producto.precio - (producto.precio * producto.descuento / 100)%></p>
+                </div>
+
+                <div class="sumar">
+                    <div class="restar">-</div>
+                    <input type="number" value="1">
+                    <div class="agregar">+</div>
+                    <button><a href="/productos/carrito/<%= producto.id %>"> Agregar al carrito</a></button>
+                </div>
+            </div>
+            <div class="detail1">
+                <h2>Detalle del producto:</h2>
+                <div class="text-detail">
+                    <p><%= producto.descripcion%></p>
+                </div>
+
+            </div>
+        </article>
+
+    </section>
+        <section class="promotion">
+            <aside>
+                <h3>Aprovecha las promociones</h3>
+                <article>
+                    <p><i class="fas fa-truck"></i>Envío gratis desde $6000</p>
+                    <p> <i class="fas fa-credit-card"></i>12 Cuotas s/ interés con todas las tarjetas</p>
+                </article>
+            </aside>
+
+        </section>
+
+
+    </main>
+    
+    <%- include('./partials/footer') %> 
+
+</body>
+
+</html>

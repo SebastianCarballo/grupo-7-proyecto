@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <%- include('./partials/head',{title: 'Carrito'}) %> 
+
+<body>
+    <%- include('./partials/header') %>
+    <main class="carrito">
+        <section class="nav-carrito">
+            <article class="back-carrito">
+                <a href="/"><i class="fas fa-arrow-left"></i>Volver a la tienda</a>
+            </article>
+
+        </section>
+        <section class="producto">
+
+            <article class="imagen-carrito">
+                <img src="/images/productos/<%= producto.imagenes[0] %>" alt="">
+            </article>
+            <article class="interaccion-carrito">
+
+                <div class="marco-carrito">
+                    <div class="desc-carrito">
+                        <p><%= producto.marca %></p>
+                        <p><%= producto.titulo %></p>
+                    </div>
+                    <div class="sumar-carrito">
+                        <div class="restar">-</div>
+                        <input type="number" value="1">
+                        <div class="agregar">+</div>
+                    </div>
+                </div>
+            </article>
+            <article class="precio-tacho-carrito">
+                <div class="tacho-carrito">
+                    <i class="fas fa-trash-alt"></i>
+                </div>
+                <div class="precio">
+                    <h2>$<%= producto.precio %></h2>
+                </div>
+            </article>
+        </section>
+       
+
+        <section class="total">
+            <article class="envio">
+                <div class="suma-envio">
+                    <div> <input type="radio" name="seleccion">
+                        <label for="E">Envio al domicilio</label>
+                    </div>
+                    <p> +$600</p>
+                </div>
+                <div class="sin-envio">
+                    <input type="radio" name="seleccion">
+                    <label for="S">Retirar por el local</label>
+                </div>
+                <div class="descuento-carrito">
+                    <p class="porcentaje-descuento">Descuento <%= producto.descuento %>%</p>
+                    <p class="total-descuento">$<%= producto.precio * producto.descuento / 100 %></p>
+                </div>
+                </div>
+            </article>
+            <article class="total-neto">
+                <h2>TOTAL :</h2>
+                <h2>$<%= producto.precio - (producto.precio * producto.descuento / 100)+600%></h2>
+            </article>
+        </section>
+        <section class="boton-compra">
+            <article class="detalle-carrito">
+                <p>Estas a un click de vivir la experiencia</p>
+            </article>
+            <article class="comprar">
+                <h2>COMPRAR</h2>
+            </article>
+        </section>
+    </main>
+    <%- include('./partials/footer') %> 
+</body>
+
+</html>

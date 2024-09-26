@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+    <%- include('./partials/head',{title: 'Home'}) %> 
+   
+
+<body class="home">
+    <%- include('./partials/header') %>
+ 
+    <main>
+        <div class="banner">
+        <img src="/images/banner (2).png" alt="banner">
+    </div>
+    <h3 class="ofertas">OFERTAS</h3>
+    <section class="section1">
+        
+        
+        <% indexProductos.forEach(producto => { %>
+        <article>
+        <a class="ruta-detalle" href="/productos/detalle/<%= producto.id %>">
+            <div class="image">
+            <img class="producto" src="/images/productos/<%= producto.imagenes[0]%>" alt="skate">
+            <div class="contenedor2">
+                <div class="heart"><i class="far fa-heart"></i></div>
+                <p class="precio">$<%= producto.precio %></p>
+                <p class="descuento">20% OFF</p>
+                <p class="descripcion"><%= producto.titulo %></p>
+            </div>
+        </a>
+            </div>
+        </article>
+        <% }) %>
+        
+        </section>
+        <h3 class="visto">LO MÁS VISTO</h3>
+    <section class="section2">
+        <% indexProductos2.forEach(producto => { %>
+            <article>
+            <a class="ruta-detalle" href="/productos/detalle/<%= producto.id %>">
+                <div class="image">
+                <img class="producto" src="/images/productos/<%= producto.imagenes[0]%>" alt="skate">
+                <div class="contenedor2">
+                    <div class="heart"><i class="far fa-heart"></i></div>
+                    <p class="precio">$<%= producto.precio %></p>
+                    <p class="descuento">20% OFF</p>
+                    <p class="descripcion"><%= producto.titulo %></p>
+                </div>
+            </a>
+                </div>
+            </article>
+            <% }) %>
+</section>
+<h3 class="veo">LO VEO, LO QUIERO</h3>
+<section class="section3">
+    <article>
+        <div class="img_producto">
+        <img src="/images/categoria-longboard.png" alt="categoria-longboard">
+        </div>
+    </article>
+    <article>
+        <div class="img_producto">
+            <img src="/images/categoria-accesorios.png" alt="categoria-accesorios">
+        </div>
+    </article>
+    <article>
+        <div class="img_producto">
+            <img src="/images/categoria-arma.png" alt="categoria-arma">
+        </div>
+    </article>
+    <article>
+        <div class="img_producto">
+            <img src="/images/categoria-skate.png" alt="">
+        </div>
+    </article>
+</section>
+
+</main>
+<%- include('./partials/footer') %> 
+    
+</body>
+
+</html>

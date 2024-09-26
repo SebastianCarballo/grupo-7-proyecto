@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <%- include('../partials/head',{title: 'Editar'}) %> 
+
+<body class="crear">
+    <%- include('../partials/header') %>
+    <h1 class="titulo">Editar Productos</h1>
+    <main class="crear">
+        <div class="parrafo-form">
+            <p class="saludo">¡Bienvenidx ADMIN!</p>           
+        </div>
+        <form action="/administrador/editar/<%= producto.id %>?_method=PUT" method="post" class="create-form">
+            <div class="control-formulario">
+                <label for="floatingSelect">Marca</label>
+                <select class="control" name="marca" id="floatingSelect" aria-label="Floating label select example">
+                    <% marca.forEach(marca => { %>
+                        <option value="<%= marca %>" <%= producto.marca.toLowerCase() === marca.toLowerCase() ? 'selected' : null %> ><%= marca %></option>
+                      <% }) %>
+                  </select>
+            </div>
+            <div class="control-formulario">
+                <label>Título</label>
+                <input type="name" name="titulo" id="titulo" placeholder="Ingrese el título"
+                    autocomplete="current-password" value="<%= producto.titulo %>" class="control" />
+            </div>
+            <div class="control-formulario">
+                <label for="floatingSelect">Categoria</label>
+                <select class="control" name="Categoria" id="floatingSelect" aria-label="Floating label select example">
+                    <% categoria.forEach(categoria => { %>
+                        <option value="<%= categoria %>" <%= producto.categoria.toLowerCase() === categoria.toLowerCase() ? 'selected' : null %> ><%= categoria %></option>
+                      <% }) %>
+                  </select>
+            </div>
+            <div class="control-formulario">
+                <label>Precio</label>
+                <input type="number" name="precio" id="precio" placeholder="Ingrese el precio"
+                     value="<%=producto.precio%>" class="control" />
+            </div>
+            <div class="control-formulario">
+                <label>Descuento</label>
+                <input type="number" name="descuento" placeholder="Ingrese el procentaje de descuento"
+                     value="<%=producto.descuento%>" class="control" />
+            </div>
+            <div class="control-formulario">
+                <label>Stock</label>
+                <input type="number" name="stock" id="Stock" placeholder="Ingrese el stock"
+                     value="<%=producto.stock%>" class="control" />
+            </div>
+            <div class="control-formulario">
+                <label>Descripción</label>
+                <textarea class="texto" - placeholder="Introduzca una breve descripción del producto" name="descripcion" ><%= producto.descripcion %></textarea >
+                
+            </div>
+            <div class="control-formulario">
+                <label>Imagen</label>
+                <input class="imagen" - type="file" name="imagen" placeholder="Introduzca la imagen del producto"
+                     value="" class="control"  multiple/>
+            </div>
+            
+            <button type="submit" class="boton-formulario">Editar Producto</button>
+
+            
+        </form>
+
+        
+    </main>
+    <%- include('../partials/footer') %> 
+</body>
+
+    
+</body>
+</html>

@@ -1,0 +1,93 @@
+[
+    {
+        "id": 1,
+        "categoria":"Partes",
+        "marca": "BONES KOWALSKI",
+        "titulo": "RUEDAS BONES KOWALSKI SPF 54MM 84B P5",
+        "precio": 17.560,
+        "descuento": 20,
+        "descripcion": "Medidas 54x31mm. Sidecut. skatepark formula 84b.",
+        "stock": 13,
+        "imagenes": [
+        "ruedas-producto1.jpg"
+        ]
+    },{
+        "id": 2,
+        "categoria":"Partes",
+        "marca": "WOODOO",
+        "titulo": "RUEDAS WOODOO MUCUS VERDES 53MM",
+        "precio": 3.690,
+        "descuento": 20,
+        "descripcion": "RUEDAS DE URETANO DE DUREZA MEDIA-BAJA (95A) DE USO GENERAL",
+        "stock": 13,
+        "imagenes": [
+        "ruedas-producto2.jpg",
+        "ruedas-producto2b.jpg",
+        "ruedas-producto2c.jpg"
+        ]
+    },{
+        "id": 3,
+        "categoria":"Partes",
+        "marca": "WOODOO",
+        "titulo": "RUEDAS WOODOO MUCUS AZULES 53MM",
+        "precio": 3.690,
+        "descuento": 20,
+        "descripcion": "RUEDAS DE URETANO DE DUREZA MEDIA-BAJA (95A) DE USO GENERAL",
+        "stock": 13,
+        "imagenes": [
+        "ruedas-producto3.jpg",
+        "ruedas-producto3b.jpg",
+        "ruedas-producto3c.jpg"
+        ]
+    },{
+        "id": 4,
+        "categoria":"Partes",
+        "marca": "BONES",
+        "titulo": "BONES 100S OG 55MM V5 BLACK",
+        "precio": 12.190,
+        "descuento": 20,
+        "descripcion": "ORIGINAL FORMULA. HIGH REBOUND. HIGH PERFORMANCE. SMOOTH ROLL.",
+        "stock": 13,
+        "imagenes": [
+        "ruedas-producto4.jpg"
+        ]
+    },{
+        "id": 5,
+        "categoria":"Partes",
+        "marca": "SPITFIRE",
+        "titulo": "SPITFIRE WHEELS 80HS 56MM CHARGERS",
+        "precio": 16.100,
+        "descuento": 20,
+        "descripcion": "RUEDAS SPITFIRE WHEELS. CHARGES CLASSICS. SMOOTH SOFT LASTING SPEED.",
+        "stock": 13,
+        "imagenes": [
+        "ruedas-producto5.jpg",
+        "ruedas-producto5B.jpg"
+        ]
+    },{
+        "id": 6,
+        "categoria":"Partes",
+        "marca": "SOFT COTTONS",
+        "titulo": "RUEDAS SOFT COTTONS 55MM 78A",
+        "precio": 4.990,
+        "descuento": 20,
+        "descripcion": "RUEDAS soft cottons. CHARGES CLASSICS. SMOOTH SOFT LASTING SPEED.",
+        "stock": 13,
+        "imagenes": [
+        "ruedas-producto6.jpg",
+        "ruedas-producto6B.jpg"
+        ]
+    },{
+        "id": 7,
+        "categoria":"Partes",
+        "marca": "Woodoo",
+        "titulo": "Ruedas Skate Woodoo Moral 777 54mm",
+        "precio": 5.299,
+        "descuento": 20,
+        "descripcion": "Las ruedas promodel Sandro Moral 777 Pack están coladas con uretano de alta resiliencia (SHR) y tienen una dureza de 100 shore A en su medida de 54mm de diámetro x 36mm de ancho. Una rueda todo terreno de excelente relación precio-calidad con el sello distinguido de pro Skater Sandro Moral. Dureza: 100A. Diámetro: 54mm. Ancho: 36mm. Sandro Moral 777 Pack",
+        "stock": 13,
+        "imagenes": [
+        "ruedas-producto7.jpg"
+        ]
+    }
+]

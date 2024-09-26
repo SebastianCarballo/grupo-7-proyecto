@@ -1,0 +1,47 @@
+
+[{             
+"Id": "1", 
+"Nombre": "Cristian", 
+"Apellido": "Elias", 
+"Email": "cristiannicolas32@hotmail.com", 
+"Contraseña": "password", 
+"Categoría": "Administrador", 
+"Imagen": "image" 
+},
+{             
+"Id": "2", 
+"Nombre": "Jeaneth", 
+"Apellido": "Barrera", 
+"Email": "jeanette.barrera0710@gmail.com", 
+"Contraseña": "password", 
+"Categoría": "Administrador", 
+"Imagen": "image" 
+},
+{             
+"Id": "3", 
+"Nombre": "Lucas", 
+"Apellido": "Cordoba", 
+"Email": "lucascordoba2@hotmail.com", 
+"Contraseña": "password", 
+"Categoría": "Administrador", 
+"Imagen": "image" 
+},
+{             
+"Identificador": "4", 
+"Nombre": "Yesica", 
+"Apellido": "Fiorentino", 
+"Email": "jesicafiore1@gmail.com", 
+"Contraseña": "password", 
+"Categoría": "Administrador", 
+"Imagen": "image" 
+},
+{             
+"Id": "5", 
+"Nombre": "Emiliano", 
+"Apellido": "Amarante", 
+"Email": "emiliano198218@gmail.com", 
+"Contraseña": "password", 
+"Categoría": "Administrador", 
+"Imagen": "image" 
+}
+]

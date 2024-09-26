@@ -1,0 +1,133 @@
+[{
+    "id": 1,
+        "categoria":"longboards",
+        "marca": "Lab",
+        "titulo": "Longboard Completo SUPER START TOP , RETRO WAVE",
+        "precio": 21420,
+        "descuento": 20,
+        "descripcion": "Tabla cóncava compuesta por 7 laminas de madera y resina epoxi.Largo: 95cm/37.4 , Ancho: 22cm/8.66 , WB: 70.7cm/28. Trucks reforzados de aluminio (160 a 180 mm según stock). Rulemanes Abec9 , Ruedas de Uretano 70mm , Lija completa. OPCIONES DE MADERA: GUATAMBÚ: resiste hasta 85kg O MAPLE ECONÓMICO:  resiste hasta 85 kg",
+        "stock": 13,
+        "imagenes": [
+            "lab-producto1.jpg",
+            "lab-general1.jpg",
+            "lab-general2.jpg"
+        ]
+},{
+    "id": 2,
+        "categoria":"longboards",
+        "marca": "Lab",
+        "titulo": "Longboard Completo SPOCK",
+        "precio": 23220,
+        "descuento": 20,
+        "descripcion": "Tabla cóncava compuesta por 7 laminas de madera y resina epoxi.  Trucks reforzados de aluminio (160 a 180 mm según stock). Rulemanes Abec9 , Ruedas de Uretano 70mm. Wheelbase: 67.7cm, 64.7cm /26.6, 25.4.  GUATAMBÚ: resiste hasta 85kg, es ideal para principiantes.",
+        "stock": 13,
+        "imagenes": [
+            "lab-producto2.jpg",
+            "lab-general1.jpg",
+            "lab-general2.jpg"
+        ]
+},{
+    "id": 3,
+        "categoria":"longboards",
+        "marca": "Kalima",
+        "titulo": "LONGBOARD KALIMA INSOMNIA HARD MAPLE",
+        "precio": 20900,
+        "descuento": 20,
+        "descripcion": "MADERA HARD MAPLE CANADIENSE ( LA MEJOR CALIDAD). Deck ideal Freestyle y Carving. Medidas 24 x 101 cm. Lija Negra. Ruedas Kalima Shock 83a 66mm de diamtero, el color puede variar segun stock al momento de la entrega. Rulemanes Kalima Lime abec 7. Trucks Kalima 180mm invertidos con Bujes de Absorcion.",
+        "stock": 13,
+        "imagenes": [
+            "kalima-producto1.jpg",
+            "kalima-producto1b.jpg",
+            "kalima-producto1c.jpg"
+        ]
+},{
+    "id": 4,
+        "categoria":"longboards",
+        "marca": "Kalima",
+        "titulo": "LONGBOARD KALIMA COYA HARD MAPLE",
+        "precio": 20900,
+        "descuento": 20,
+        "descripcion": "MADERA HARD MAPLE CANADIENSE ( LA MEJOR CALIDAD). Deck ideal Freeride . Medidas 24 x 96 cm. Lija Negra. Ruedas Kalima Shock 83a 66mm de diamtero, el color puede variar segun stock al momento de la entrega. Rulemanes Kalima Lime abec 7. Trucks Kalima 180mm invertidos con Bujes de Absorcion.",
+        "stock": 13,
+        "imagenes": [
+            "kalima-producto2.jpg",
+            "kalima-producto2b.jpg",
+            "kalima-producto2c.jpg"
+        ]
+},{
+    "id": 5,
+        "categoria":"longboards",
+        "marca": "Kalima",
+        "titulo": "LONGBOARD KALIMA KUBRA HARD MAPLE",
+        "precio": 20900,
+        "descuento": 20,
+        "descripcion": "MADERA HARD MAPLE CANADIENSE ( LA MEJOR CALIDAD). Deck ideal Freeride . Medidas 23 x 104 cm. Lija Negra. Ruedas Kalima Shock 83a 66mm de diamtero, el color puede variar segun stock al momento de la entrega. Rulemanes Kalima Lime abec 7. Trucks Kalima 180mm invertidos con Bujes de Absorcion.",
+        "stock": 13,
+        "imagenes": [
+            "kalima-producto3.jpg",
+            "kalima-producto3b.jpg",
+            "kalima-producto3c.jpg"
+        ]
+},{
+    "id": 6,
+        "categoria":"longboards",
+        "marca": "Kalima",
+        "titulo": "LONGBOARD KALIMA GENESIS HARD MAPLE",
+        "precio": 20900,
+        "descuento": 20,
+        "descripcion": "MADERA HARD MAPLE CANADIENSE ( LA MEJOR CALIDAD). Deck ideal Freeride . Medidas 105 x 24 cm. Lija Negra. Ruedas Kalima Shock 83a 66mm de diamtero, el color puede variar segun stock al momento de la entrega. Rulemanes Kalima Lime abec 7. Trucks Kalima 180mm invertidos con Bujes de Absorcion.",
+        "stock": 13,
+        "imagenes": [
+            "kalima-producto4.jpg",
+            "kalima-producto4b.jpg",
+            "kalima-producto4c.jpg"
+        ]
+},{
+    "id": 7,
+        "categoria":"longboards",
+        "marca": "Kalima",
+        "titulo": "LONGBOARD KALIMA TRYBAL HARD MAPLE",
+        "precio": 20900,
+        "descuento": 20,
+        "descripcion": "MADERA HARD MAPLE CANADIENSE ( LA MEJOR CALIDAD). Deck ideal Freeride . Medidas 105 x 24 cm. Lija Negra. Ruedas Kalima Shock 83a 66mm de diamtero, el color puede variar segun stock al momento de la entrega. Rulemanes Kalima Lime abec 7. Trucks Kalima 180mm invertidos con Bujes de Absorcion.",
+        "stock": 13,
+        "imagenes": [
+            "kalima-producto5.jpg",
+            "kalima-producto5b.jpg",
+            "kalima-producto5c.jpg"
+        ]
+},{
+    "id": 8,
+        "categoria":"longboards",
+        "marca": "Kalima",
+        "titulo": "LONGBOARD KALIMA ROOTS HARD MAPLE",
+        "precio": 20900,
+        "descuento": 20,
+        "descripcion": "MADERA HARD MAPLE CANADIENSE ( LA MEJOR CALIDAD). Deck ideal Freeride . Medidas 98 x 23 cm. Lija Negra. Ruedas Kalima Shock 83a 66mm de diamtero, el color puede variar segun stock al momento de la entrega. Rulemanes Kalima Lime abec 7. Trucks Kalima 180mm invertidos con Bujes de Absorcion.",
+        "stock": 13,
+        "imagenes": [
+            "kalima-producto6.jpg",
+            "kalima-producto6b.jpg",
+            "kalima-producto6c.jpg"
+        ]
+}
+,{
+    "id": 9,
+        "categoria":"longboards",
+        "marca": "Kalima",
+        "titulo": "LONGBOARD KALIMA MAMBA HARD MAPLE",
+        "precio": 20900,
+        "descuento": 20,
+        "descripcion": "MADERA HARD MAPLE CANADIENSE ( LA MEJOR CALIDAD). Deck ideal Freeride . Medidas 92 x 23 cm. Lija Negra. Ruedas Kalima Shock 83a 66mm de diamtero, el color puede variar segun stock al momento de la entrega. Rulemanes Kalima Lime abec 7. Trucks Kalima 180mm invertidos con Bujes de Absorcion.",
+        "stock": 13,
+        "imagenes": [
+            "kalima-producto7.jpg",
+            "kalima-producto7b.jpg",
+            "kalima-producto7c.jpg"
+        ]
+}
+
+
+
+
+]
